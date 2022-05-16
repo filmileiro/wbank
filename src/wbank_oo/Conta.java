@@ -1,3 +1,5 @@
+package wbank_oo;
+
 public class Conta {
     private double saldo;
     private int angencia;
@@ -7,11 +9,11 @@ public class Conta {
 
     public Conta(int agencia, int numero) {
         total++;
-        System.out.println("\nConta de numero: " + total + ".");
+        System.out.println("\nwbank_oo.Conta de numero: " + total + ".");
         this.angencia = agencia;
         this.numero = numero;
 
-        System.out.println("Conta Criada com sucesso!");
+        System.out.println("wbank_oo.Conta Criada com sucesso!");
     }
 
     public double getSaldo() {

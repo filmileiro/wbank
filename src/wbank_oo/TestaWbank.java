@@ -1,3 +1,5 @@
+package wbank_oo;
+
 public class TestaWbank {
     public static void main(String[] args) {
 

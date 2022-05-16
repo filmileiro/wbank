@@ -1,10 +1,12 @@
+package wbank_oo;
+
 public class Cliente {
     private String nome;
     private String cpf;
     private String profissao;
 
     public Cliente(String nome, String cpf, String profissao) {
-        System.out.println("Cliente cadastrado com sucesso!");
+        System.out.println("wbank_oo.Cliente cadastrado com sucesso!");
         this.nome = nome;
         this.cpf = cpf;
         this.profissao = profissao;
@@ -36,7 +38,7 @@ public class Cliente {
 
     @Override
     public String toString() {
-        return "\nDados do Cliente:\n" +
+        return "\nDados do wbank_oo.Cliente:\n" +
                 "Nome: " + nome +
                 "\ncpf: " + cpf +
                 "\nProfissao: " + profissao;
